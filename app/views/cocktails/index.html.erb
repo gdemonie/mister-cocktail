@@ -1,0 +1,8 @@
+<div class="container">
+  <div class="row">
+      <% @cocktails.each do |cocktail| %>
+        <%= render "cocktail", cocktail: cocktail %>
+      <% end %>
+    </div>
+  </div>
+</div>

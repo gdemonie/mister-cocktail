@@ -1,0 +1,9 @@
+<div class="container">
+  <div class="row">
+    <h1>Add a Dose</h1>
+    <%= render 'form' %>
+    <br>
+    <%= link_to "back to #{@cocktail.name} profile" , cocktails_path, {class: "btn btn-primary"} %>
+    <br>
+  </div>
+</div>

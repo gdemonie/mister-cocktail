@@ -1,0 +1,11 @@
+<div class="dose">
+    <div class="row">
+
+        <h3>
+        <%= "#{dose.description}: #{ingredient.name}" %>
+        <%= link_to "Delete dose", dose_path(dose), method: :delete, class: "btn btn-danger", data: {confirm: "Are you sure?"} %>
+        </h3>
+
+
+    </div>
+  </div>
