@@ -44,3 +44,11 @@ group :development, :test do
 end
 
 gem 'rspec-rails', group: [ :test ]
+
+ruby '2.2.2'
+gem 'rails_12factor', group: :production
+gem 'puma',           group: :production
+
+gem 'bootstrap-sass'
+gem 'font-awesome-sass'
+gem 'simple_form'
