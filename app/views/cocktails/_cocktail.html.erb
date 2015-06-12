@@ -2,6 +2,7 @@
   <div class="cocktail">
     <div class="row">
 
+        <%= image_tag cocktail.picture.url(:medium) %>
         <%= link_to cocktail_path(cocktail) do %>
         <h2><%= cocktail.name %></h2>
         <% end %>
